@@ -17,8 +17,13 @@ int main()
 {
     int searchType = 0;
     setlocale(LC_ALL, "Russian");
-    base student[RECORDS_COUNT];
-    fillBase(student);
+    //base student[RECORDS_COUNT];
+    //fillBase(student);
+    base student[RECORDS_COUNT] = {
+       {"Ivanov", "Ivan", "IT", 12345},
+       {"Petrov", "Petr", "Math", 23456},
+       {"Sidorov", "Sidr", "Physics", 34567}
+    };
     search(student);
     return 0;
     
@@ -41,12 +46,16 @@ void fillBase(base student[]) {
 int cmpString(char string1[20], char string2[20]) {
     int i = 0;
     while (string1[i] != '\0' || string1[i] != '\0') {
-        if (string1[i] != string2[i]) {
-            return 1;
+        if (string1[i] == string2[i]) {
+            i++;
+            continue;
         }
-        i++;
+        else {
+            return 0;
+        }
+        
     }
-    return 0;
+    return 1;
 }
 
 void search(base student[]) {
@@ -69,6 +78,7 @@ void search(base student[]) {
                 printStruct(student, id);
                 break;
             }
+            else continue;
         }
         break;
     case 2:
@@ -80,6 +90,7 @@ void search(base student[]) {
                 printStruct(student, id);
                 break;
             }
+            else continue;
         }
         break;
     case 3:
@@ -91,17 +102,19 @@ void search(base student[]) {
                 printStruct(student, id);
                 break;
             }
+            else continue;
         }
         break;
     case 4:
         scanf("%d", &zachetkaSearch);
         for (int i = 0; i < RECORDS_COUNT; i++) {
-            if (zachetkaSearch = student[i].ZachetkaNum) {
+            if (zachetkaSearch == student[i].ZachetkaNum) {
                 id = i;
                 success = 1;
                 printStruct(student, id);
                 break;
             }
+            else continue;
 
         }
         break;
