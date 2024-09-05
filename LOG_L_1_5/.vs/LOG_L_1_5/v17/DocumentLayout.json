@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\Projects\\LOG_L_1_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A65891BB-A25F-450E-972B-C6CF72E27E61}|LOG_L_1_5\\LOG_L_1_5.vcxproj|C:\\Work\\Projects\\LOG_L_1_5\\LOG_L_1_5\\LOG_L_1_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A65891BB-A25F-450E-972B-C6CF72E27E61}|LOG_L_1_5\\LOG_L_1_5.vcxproj|solutionrelative:LOG_L_1_5\\LOG_L_1_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LOG_L_1_5.cpp",
+              "DocumentMoniker": "C:\\Work\\Projects\\LOG_L_1_5\\LOG_L_1_5\\LOG_L_1_5.cpp",
+              "RelativeDocumentMoniker": "LOG_L_1_5\\LOG_L_1_5.cpp",
+              "ToolTip": "C:\\Work\\Projects\\LOG_L_1_5\\LOG_L_1_5\\LOG_L_1_5.cpp",
+              "RelativeToolTip": "LOG_L_1_5\\LOG_L_1_5.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-05T16:43:29.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
