@@ -17,13 +17,8 @@ int main()
 {
     int searchType = 0;
     setlocale(LC_ALL, "Russian");
-    //base student[RECORDS_COUNT];
-    //fillBase(student);
-    base student[RECORDS_COUNT] = {
-       {"Ivanov", "Ivan", "IT", 12345},
-       {"Petrov", "Petr", "Math", 23456},
-       {"Sidorov", "Sidr", "Physics", 34567}
-    };
+    base student[RECORDS_COUNT];
+    fillBase(student);
     search(student);
     return 0;
     
