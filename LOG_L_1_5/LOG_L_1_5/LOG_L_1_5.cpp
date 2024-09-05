@@ -53,6 +53,14 @@ int cmpString(char string1[20], char string2[20]) {
     return 1;
 }
 
+void printStruct(base student[], int id) {
+    printf("\n%s%s\n%s%s\n%s%s\n%s%d\n",
+        "Фамилия: ", student[id].lastName,
+        "Имя: ", student[id].firstName,
+        "Факультет: ", student[id].faculty,
+        "Номер зачетной книжки: ", student[id].ZachetkaNum);
+}
+
 void search(base student[]) {
     int type = 0;
     int success = 0;
@@ -122,12 +130,4 @@ void search(base student[]) {
         }
     }
 
-}
-
-void printStruct(base student[], int id) {
-    printf("\n%s%s\n%s%s\n%s%s\n%s%d\n",
-        "Фамилия: ", student[id].lastName,
-        "Имя: ", student[id].firstName,
-        "Факультет: ", student[id].faculty,
-        "Номер зачетной книжки: ", student[id].ZachetkaNum);
 }
