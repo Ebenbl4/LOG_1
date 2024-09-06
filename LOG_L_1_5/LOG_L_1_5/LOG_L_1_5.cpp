@@ -85,6 +85,7 @@ void search(base student[]) {
         }
         break;
     case 2:
+        printf("¬ведите запрос дл€ поиска: ");
         scanf("%19s", &string);
         for (int i = 0; i < RECORDS_COUNT; i++) {
             success = cmpString(string, student[i].firstName);
@@ -97,6 +98,7 @@ void search(base student[]) {
         }
         break;
     case 3:
+        printf("¬ведите запрос дл€ поиска: ");
         scanf("%19s", &string);
         for (int i = 0; i < RECORDS_COUNT; i++) {
             success = cmpString(string, student[i].faculty);
@@ -109,6 +111,7 @@ void search(base student[]) {
         }
         break;
     case 4:
+        printf("¬ведите запрос дл€ поиска: ");
         scanf("%d", &zachetkaSearch);
         for (int i = 0; i < RECORDS_COUNT; i++) {
             if (zachetkaSearch == student[i].ZachetkaNum) {
